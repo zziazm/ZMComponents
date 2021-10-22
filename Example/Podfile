@@ -3,11 +3,6 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'ZMComponents_Example' do
-  pod 'ZMComponents', :path => '../'
-
-  target 'ZMComponents_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'ZMComponents', :path => '../ZMComponents.podspec'
+  pod 'AFNetworking'
 end

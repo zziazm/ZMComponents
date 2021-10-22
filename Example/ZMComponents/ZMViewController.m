@@ -8,6 +8,10 @@
 
 #import "ZMViewController.h"
 
+#import <AFNetworking/AFNetworking.h>
+#import <ZMComponents/TestModel.h>
+
+
 @interface ZMViewController ()
 
 @end
@@ -17,6 +21,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    TestModel *d;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
